@@ -14,7 +14,7 @@ class AccueilController extends AbstractController
     public function index(): Response
     {
         return $this->render('accueil/index.html.twig');
-    }// début de la vidéo 6 (la commencer)
+    } // début de la vidéo 9
 
 
 }

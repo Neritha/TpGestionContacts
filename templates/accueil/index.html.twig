@@ -5,4 +5,8 @@
 {% block body %}
 <h1 class="pt-5">Bienvenue sur mon application de gestion des contacts</h1>
 
+<ul>
+{% for leNom in lesNoms %}
+    <li> {{ leNom|upper }} </li>
+
 {% endblock %}
